@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 ROOT_DIR = Path(__file__).resolve().parent
-API_HOST = "127.0.0.1"
+API_HOST = "https://assessment-checker.onrender.com/"
 API_PORT = 8000
 UI_PORT = 8501
 
