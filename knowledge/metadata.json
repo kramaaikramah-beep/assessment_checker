@@ -1,0 +1,10 @@
+{
+  "units": [
+    {
+      "file": "business_comm.json",
+      "unit_id": "trial_business_communication",
+      "name": "Business Communication Trial Unit",
+      "keywords": ["communication", "formal", "barriers", "business communication", "written communication"]
+    }
+  ]
+}

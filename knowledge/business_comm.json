@@ -1,0 +1,76 @@
+{
+  "unit_id": "trial_business_communication",
+  "unit_name": "Business Communication Trial Unit",
+  "question_markers": {
+    "prefix_templates": [
+      "{id}",
+      "{id}.",
+      "{id}:",
+      "Question {number}",
+      "Question {number}.",
+      "Question {number}:",
+      "Q{number}",
+      "Q{number}.",
+      "Q{number}:"
+    ],
+    "pdf_search_templates": [
+      "{id}",
+      "Question {number}",
+      "Q{number}"
+    ],
+    "match_question_text": true
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "question": "Explain the importance of effective communication in a business environment.",
+      "markers": [
+        "Task 1",
+        "Task 1:",
+        "Task 1."
+      ],
+      "key_points": [
+        "clear message",
+        "audience",
+        "purpose",
+        "professional tone"
+      ],
+      "answer_sheet": "Effective communication is important in a business environment because it makes the message clear, ensures it is suitable for the audience, supports the purpose of the communication, and maintains a professional tone. Good communication reduces misunderstanding, improves teamwork, and helps work tasks get completed correctly.",
+      "minimum_words": 45
+    },
+    {
+      "id": "Q2",
+      "question": "Identify common barriers to communication and explain how they can be reduced.",
+      "markers": [
+        "Task 2",
+        "Task 2:",
+        "Task 2."
+      ],
+      "key_points": [
+        "language barriers",
+        "listening",
+        "feedback",
+        "clarification"
+      ],
+      "answer_sheet": "Common barriers to communication include language barriers, poor listening, lack of feedback, and misunderstanding between people or teams. These barriers can be reduced by using clear language, actively listening, asking for clarification, checking understanding, and encouraging feedback during communication so messages are understood correctly.",
+      "minimum_words": 45
+    },
+    {
+      "id": "Q3",
+      "question": "Describe how formal written communication should be structured in the workplace.",
+      "markers": [
+        "Task 3",
+        "Task 3:",
+        "Task 3."
+      ],
+      "key_points": [
+        "clear structure",
+        "formal tone",
+        "accuracy",
+        "appropriate format"
+      ],
+      "answer_sheet": "Formal written communication in the workplace should use a clear structure with an introduction, main body, and conclusion. It should use a formal and professional tone, be accurate in spelling and grammar, and follow the appropriate format such as an email, letter, memo, or report depending on the purpose.",
+      "minimum_words": 45
+    }
+  ]
+}
