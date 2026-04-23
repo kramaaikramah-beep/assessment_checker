@@ -9,7 +9,6 @@ python-multipart==0.0.9
 # Document Processing
 # =========================
 python-docx==1.1.0
-lxml==5.2.1
 
 # =========================
 # PDF Support (for later expansion)
@@ -31,7 +30,7 @@ tqdm==4.66.4
 # =========================
 # Frontend (UI)
 # =========================
-streamlit==1.35.0
+streamlit
 requests==2.31.0
 
 # =========================
