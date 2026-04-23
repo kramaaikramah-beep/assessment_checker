@@ -1,45 +1,27 @@
-# =========================
-# Core Backend
-# =========================
-fastapi==0.110.0
-uvicorn[standard]==0.29.0
-python-multipart==0.0.9
-
-# =========================
-# Document Processing
-# =========================
-python-docx==1.1.0
-
-# =========================
-# PDF Support (for later expansion)
-# =========================
-PyMuPDF==1.24.1
-pdfplumber==0.11.0
-
-# =========================
-# Data Handling
-# =========================
-pydantic==2.7.1
-
-# =========================
-# Utilities
-# =========================
-python-dotenv==1.0.1
-tqdm==4.66.4
-
-# =========================
-# Frontend (UI)
-# =========================
+# Core
 streamlit
-requests==2.31.0
+requests
 
-# =========================
-# Optional (Production Scaling)
-# =========================
-gunicorn==21.2.0
-aiofiles==23.2.1
+# Backend logic (if used internally)
+fastapi
+python-multipart
 
-# =========================
-# Logging & Debugging
-# =========================
-loguru==0.7.2
+# Document processing
+python-docx
+
+# PDF support
+PyMuPDF
+pdfplumber
+
+# Data handling
+pydantic
+
+# Utilities
+python-dotenv
+tqdm
+
+# Optional async/file handling
+aiofiles
+
+# Logging
+loguru
